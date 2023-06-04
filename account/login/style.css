@@ -1,0 +1,117 @@
+body {
+	background: url(Assets/background.jpg);
+	background-color: #323437;
+	margin: 0px;
+	padding: 0;
+	justify-content: center;
+	display: flex;
+}
+
+h1 {
+	color: #b9b9b9;
+}
+
+h2 {
+	color: #b9b9b9;
+}
+
+h3 {
+	color: #b9b9b9;
+}
+
+.container {
+	padding: 12px;
+}
+
+.logo {
+	color: #b9b9b9;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #b9b9b9;
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	background: #b9b9b9;
+	color: white;
+}
+
+.background {
+	border-radius: 25px;
+	padding: 159px 110px;
+	max-width: 349px;
+	max-height: 149px;
+	background: rgba(0, 0, 0, 0,3);
+	backdrop-filter:blur(16px);
+	margin-top: 10vh;
+}
+
+.background h1 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h2 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h3 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+button {
+	padding: 12px 50px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	transition: .2s;
+	cursor: pointer;
+  }
+
+.account {
+	background-color: #1f1f1f;
+	backdrop-filter:blur(16px);
+	border-radius: 15px;
+	width: 270px;
+	height: 370px;
+	margin-top: 10vh;
+}
+
+input {
+	border-radius: 5px;
+	border: 0px;
+	background-color: rgb(0, 146, 146);
+	color: #1d1d1d;
+}
+
+.search_anime {
+	width: 159px;
+	border: 5px;
+	border-radius: 10px;
+	color: #888888;
+	background-color: #1f1f1f;
+}
